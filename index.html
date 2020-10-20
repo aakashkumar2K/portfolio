@@ -1,0 +1,178 @@
+<!doctype html>
+<html>
+<head>
+<title>
+</title>
+<style>
+body{
+background-image: url('images.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: 100% 100%;
+  color:white;
+}
+.first {
+  width: 300px;
+  height: 100%;
+  font-size:30px;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 5s 1;
+  animation-fill-mode: forwards;
+}  
+}
+#line{
+animation-timing-function: ease-in-out;
+}
+#name{
+animation-timing-function: ease-in;
+}
+@keyframes mymove {
+  from {left: 0%;}
+  to {left: 39%;}
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+#passport{
+
+text-align:center;
+}
+#aboutme{
+width:100%;
+height:75%;
+background-color:#00cc99;
+color:black;
+}
+.skills{
+color:white;
+background:black;
+}
+#hobbies{
+width:45%;
+float:right;
+padding: 2%;
+background-color:black;
+.clearfix{
+clear:both;
+}
+#contact h2{
+width :100%;
+background-color:white;
+}
+.abc a img:hover{
+opacity:.5;}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="portfolio1.html#aboutme">About</a>
+  <a href="portfolio1.html#hobbies">HOBBIES</a>
+  <a href="portfolio1.html#contact">Contact</a>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+<div id="passport">
+<img src="background.jpg" style="width:200px;height:200px;" >
+</div>
+<div  class="first" id="line">
+<b>___________________</b>
+</div>
+<div  class="first" id="name">
+&nbsp&nbsp&nbsp&nbspAAKASH KUMAR
+</div>
+<div  class="first" id="line">
+<b>__________________</b>
+</div>
+
+<p>
+</p>
+<P style="text-align:center";>WEB DEVELOPER <br>&nbsp&nbsp&nbspAND<br> PROGRAMMER</P></b>
+<div id="aboutme">
+<h1>AAKASH KUMAR</h1> 
+
+<h2>TO SUM UP ME</h2>
+<p>Currently pursuing my GRADUATION in Computer Science at the SHRI GURU TEG BHADUR KHALSA COLLEGE,UNIVERSITY OF DELHI.  i am a programmer and a web developer.
+ currently not pursuing any resaerch in any field. </p>
+<p> passed 12 class from N.R  PUBLIC SCHOOL KHURJA  BULANDSHAR SCORED 474/500</p>
+<P>PASSERD 10 class from N.R. PUBLIC SCHOOL KHURJA BULANDSHAR SCORED   10 CGPA</P>
+</div>
+<div class="skills">
+<h2>SKILLS</h2>
+<ul>
+<li><h3>C++</h3> 80%</li>
+<hr  style=" text-align:left; width:40%;height:10% ;margin-left:0";>
+<li><h3>JAVA</h3> 60%</li>
+<hr style=" text-align:left;width:30%;height:10%; margin-left:0";>
+<li><h3>HTML</h3>99%</li>
+<hr style=" text-align:left;width:50%;height=10%; margin-left:0";>
+<li><h3>CSS</h3>90%</li>
+<hr style=" text-align:left;width:45%;height:10%; margin-left:0";>
+<li><h3>JAVASCRIPT</h3>85%</li>
+<hr style="text-align:left; width:35%; height:10%;margin-left:0;">
+</ul>
+</div>
+<p><h2 style="text-align:center";>HOBBIES</h2><p>
+<div id="hobbies">
+<img src="chesses.jpg" height="400" width="400">
+</div>
+
+<div class="hobbies">
+I would like to respond to various claims about what chess supposedly improves. For example, Joe Blitzstein asserts that chess improves one’s foresight, circumspection, deliberation and teaches you about hope and perseverance. Such noble corollaries of playing the game. However, suggesting chess improves your foresight because it is required in the game is like suggesting you can learn how to fly by flapping your wings like a bird. It’s almost like the real thing, right? Not quite. The main factors that determine chess skill are chess-specific factors that are not transferable to other areas of life. Firstly, this means that being able to “predicting and analyzing the future” in chess does not necessarily improve your ability to do so in other activities in life. Also, conversely, not being able to do so in chess in no way negatively affects your ability to do so.so i love toplay chess .play at state level also but not win but its imporatant to participate.Losing and winning are the two phase of the coin so you have to accept one .chess refresh my find give deep satisfiction after playing.
+<br>
+</div>
+
+<footer id="contact"><p>
+<h1> CONTACT/HIRE</h1>
+<a href="https://www.facebook.com/profile.php?id=100004722046463"><img src="facebook_logo.webp" height="100" width="100"></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href="mailto:aakashkumarmeerut1857@gmail.com"><img src="gmail.png" height ="100" width="100"></a>
+</p>
+</footer>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+</body>
+</html>
